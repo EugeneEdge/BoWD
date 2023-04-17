@@ -1,0 +1,52 @@
+head,body{
+	margin: 0;
+	padding: 0;
+}
+header, .nav_ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header{
+	width: 100%;
+	background-color: #003366;
+}
+nav{
+	width: 50%;
+	color: white;
+}
+.nav_li>a{
+	transition: border-color 1s, color 1s ;
+}
+
+.nav_li>a:link,.ind_div>a:link{
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	border: white solid 1px;
+	border-radius: 15px;
+
+}
+.nav_li>a:visited,.ind_div>a:visited{
+	color: white;
+	text-decoration: none;
+}
+.nav_li>a:hover,.ind_div>a:hover{
+	color: gold;
+	border: gold solid 1px;
+	border-radius: 15px;
+}
+.nav_li>div{
+	color: lightcyan;
+}
+.ind_div{
+	align-self: center;
+	padding-left: 15px;
+}
+.ind_div>a{
+	transition: border-color 1s, color 1s ;
+}
+.nav_ul{
+	list-style-type: none;
+	padding-right: 15px;
+}

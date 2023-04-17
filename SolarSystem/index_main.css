@@ -1,0 +1,17 @@
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 700px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.main_text{
+	padding: 15px;
+	padding-right: 100px;
+	background: lightgray;
+}
+.main_vid{
+	padding: 15px;
+}
