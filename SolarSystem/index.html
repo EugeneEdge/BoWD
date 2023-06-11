@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="footer.css">
 </head>
 <body>
-	<header>
+	<header id="header">
 		<div class="ind_div"><a href="index.html">Solar System</a></div>
 		
 		<nav>
@@ -39,8 +39,14 @@
 		</div>
 	</div>
 
-	<footer>
-		<a href="#top">To top</a>
+	<footer id="footer">
+		<div>
+			<button type="button" class="btn_blue" onclick="defaultBlue()">Default blue</button>
+			<button type="button" class="btn_black" onclick="cosmicBlack()">Cosmic black</button>
+			<button type="button" class="btn_red" onclick="radiantRed()">Radiant red</button>
+		</div><a href="#top">To top</a>
 	</footer>
+
+	<script type="text/javascript" src="background.js"></script>
 </body>
 </html>

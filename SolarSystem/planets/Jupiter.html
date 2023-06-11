@@ -5,11 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Solar System</title>
 	<link rel="stylesheet" href="../header.css">
+	<link rel="stylesheet" href="planet_main.css">
+	<link rel="stylesheet" href="../footer.css">
 </head>
 <body>
-	<header>
+	<header id="header">
 		<div class="ind_div"><a href="../index.html">Solar System</a></div>
-		
 		<nav>
 			<ul class="nav_ul">
 				<li class="nav_li"><div>Planets:</div></li>
@@ -24,7 +25,39 @@
 			</ul>
 		</nav>
 	</header>
-	<p>Jupiter</p>
-	<img src="jupiter.png" width="200" height="200">
+	
+	<div class="main">
+		<p class="pl_name">Jupiter</p>
+		<div class="pl_img"><img src="jupiter.png" width="300" height="300"></div>
+
+		<div class="info">
+			<div class="pl_info" onclick="ChangePlText(this)">
+				<p class="pl_shown" style="display: block;">text1</p>
+				<p class="pl_hidden">More text1 but hidden</p>
+				<p class="pl_hint">Click to show more</p>
+			</div>
+			<div class="pl_info" onclick="ChangePlText(this)">
+				<p class="pl_shown" style="display: block;">text2</p>
+				<p class="pl_hidden">More text2 but hidden</p>
+				<p class="pl_hint">Click to show more</p>
+			</div>
+			<div class="pl_info" onclick="ChangePlText(this)">
+				<p class="pl_shown" style="display: block;">text3</p>
+				<p class="pl_hidden">More text3 but hidden</p>
+				<p class="pl_hint">Click to show more</p>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer">
+		<div>
+			<button type="button" class="btn_blue" onclick="defaultBlue()">Default blue</button>
+			<button type="button" class="btn_black" onclick="cosmicBlack()">Cosmic black</button>
+			<button type="button" class="btn_red" onclick="radiantRed()">Radiant red</button>
+		</div><a href="#top">To top</a>
+	</footer>
+
+	<script type="text/javascript" src="pl.js"></script>
+	<script type="text/javascript" src="../background.js"></script>
 </body>
 </html>

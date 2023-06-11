@@ -22,8 +22,9 @@ nav{
 .nav_li>a:link,.ind_div>a:link{
 	color: white;
 	text-decoration: none;
-	padding: 5px;
-	border: white solid 1px;
+	font-size: 14px;
+	padding: 10px 10px;
+	border: white solid 2px;
 	border-radius: 15px;
 
 }
@@ -33,7 +34,7 @@ nav{
 }
 .nav_li>a:hover,.ind_div>a:hover{
 	color: gold;
-	border: gold solid 1px;
+	border: gold solid 2px;
 	border-radius: 15px;
 }
 .nav_li>div{

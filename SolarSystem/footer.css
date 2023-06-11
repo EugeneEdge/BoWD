@@ -18,3 +18,35 @@ footer>a:visited{
 footer>a:hover{
 	color: gold;
 }
+
+button {
+  	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	background-color: transparent; 
+	border: 2px solid white;
+	border-radius: 15px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+.btn_blue:hover {
+	background-color: #003366;
+	color: lightblue;
+	border-color: lightblue;
+}
+.btn_black:hover{
+	background-color: black;
+  	color: lightgrey;
+  	border-color: lightgrey;
+}
+.btn_red:hover{
+	background-color: crimson;
+  	color: lightred;
+  	border-color: lightred;
+}
